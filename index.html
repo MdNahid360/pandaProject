@@ -4,12 +4,350 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>panda 360</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 <body>
+    <header class="container">
+       <div class=" mx-auto justify-content-center align-items-center">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light ">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img src="/img/logo.png" class="img-thumbnail" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+               <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Subscribe</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+          <!---------my carousel slider ------>
+          <br>
+        <div class="slids p-lg-3  p-md-4 p-0 mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                                <div class="carousel-item active ">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-md-7 col-12 p-lg-5 p-md-5 p-3 d-flex justify-content-center align-items-center">
+                                            <div class="Stitle px-4">
+                                                <h2>
+                                                    Mega LCD TV For Sports
+                                                </h2>
+            
+                                                <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                                <h3 class="price">$1200</h3>
+                                                <a href="#" class="btn px-3 py-2 mt-3 buy">Buy Now</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 p-3 col-md-5  col-12">
+                                        <img src="/img/banner-images/tv.png" class="d-block  img-fluid  img-item" alt="banner 1">
+                                        </div>
+                                    </div>
+                        
+                                </div>
+            
+  
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-md-7 col-12 p-lg-5 p-md-5 p-3 d-flex justify-content-center align-items-center">
+                                                <div class="Stitle px-4">
+                                                    <h2>
+                                                        Cool Dude Headphone
+                                                    </h2>
+
+                                                    <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                                    <h3 class="price"><del>$120</del> / $390</h3>
+                                                    <a href="#" class="btn px-3 py-2 mt-3 buy">Buy Now</a>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-5 p-3 col-md-5  col-12">
+                                            <img src="/img/banner-images/headphone.png" class="d-block w-md-75 img-fluid  img-item" alt="banner 1">
+                                        </div>
+                                    </div>
+                            
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-md-7 col-12 p-lg-5 p-md-5 p-3 d-flex justify-content-center align-items-center">
+                                                <div class="Stitle px-4">
+                                                    <h2>
+                                                        X-Box for your living room
+                                                    </h2>
+
+                                                    <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                                    <h3 class="price">$570</h3>
+                                                    <a href="#" class="btn px-3 py-2 mt-3 buy">Buy Now</a>
+                                                </div>
+                                        </div>
+                                        <div class="col-lg-5 p-3 col-md-5  col-12">
+                                            <img src="/img/banner-images/xbox.png" class="d-block  img-fluid img-item" alt="banner 1">
+                                        </div>
+                                    </div>
+                            
+                                </div>
+                                
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+              </div>
+        </div>
+
+       </div>
+          
+    </header>
+    <main class=" py-5 mt-lg-5 mt-md-4 mt-3">
+            <div class=" mx-auto">
+                <div class="container overflow-hidden">
+                    <div class="row py-3 g-4 justify-content-center align-items-center">
+                      <div class="col-lg-4 col-md-4 col-12">
+                        <div id="gd" class=" p-3 d-flex justify-content-around align-items-center border  my-grid">
+                               <h2>
+                                   Watch
+                               </h2>
+                               <img src="img/categories/watch.png" class="img-fluid ml-auto w-25 wts" alt="watch">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-12">
+                        <div id="gd2" class=" p-3 d-flex justify-content-around align-items-center border my-grid">
+                               <h2>
+                                   Bag
+                               </h2>
+                               <img src="img/categories/bag.png" class="img-fluid ml-auto w-25 wts" alt="watch">
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-12">
+                        <div id="gd3" class=" p-3 d-flex justify-content-around align-items-center border  my-grid">
+                               <h2>
+                                   Shoes
+                               </h2>
+                               <img src="img/categories/shoes.png" class="img-fluid ml-auto w-25 wts" alt="watch">
+                        </div>
+                      </div>
+            
+                  
+                  
+                    </div>
+                  </div>
+            </div>
+
+            <!-- Shoes -->
+            <section class="shoes container py-5">
+                <h2 class="hdr">
+                    Shoes
+                </h2>
+                    <div class="row g-3 mt-4">
+                          <div class="col-lg-4 col-md-4 col-12">
+                              <div class="card">
+                                  <div class="card-header">
+                                      <img src="img/shoes/shoe-1.png" alt="shose" class="img-fluid">
+                                      <div class="card-body">
+                                            <h3>
+                                                Supply 350
+                                            </h3>
+                                            <p class="mt-4">
+                                                This is a longer card with supporting text below as a natural lead-in to additional.
+                                            </p>
+                                            <span class="mt-2">
+                                                $140
+                                            </span>
+                                        <br>
+                                            <button class="btn buyN mt-3">  
+                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>   Buy Now >>
+                                            </button>
+                                         
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-12">
+                              <div class="card">
+                                  <div class="card-header">
+                                      <img src="img/shoes/shoe-2.png" alt="shose" class="img-fluid">
+                                      <div class="card-body">
+                                            <h3>
+                                                Nike 360
+                                            </h3>
+                                            <p class="mt-4">
+                                                This is a longer card with supporting text below as a natural lead-in to additional.
+                                            </p>
+                                            <span class="mt-2">
+                                                $340
+                                            </span>
+                                        <br>
+                                            <button class="btn buyN mt-3">  
+                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>   Buy Now >>
+                                            </button>
+                                         
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-12">
+                              <div class="card">
+                                  <div class="card-header">
+                                      <img src="img/shoes/shoe-3.png" alt="shose" class="img-fluid">
+                                      <div class="card-body">
+                                            <h3>
+                                                Red Airmax
+                                            </h3>
+                                            <p class="mt-4">
+                                                This is a longer card with supporting text below as a natural lead-in to additional.
+                                            </p>
+                                            <span class="mt-2">
+                                                $380
+                                            </span>
+                                        <br>
+                                            <button class="btn buyN mt-3">  
+                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>   Buy Now >>
+                                            </button>
+                                         
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                    </div>
+            </section>
+       <!-- -------------------- bag ----------------------------- -->
+            <section class="shoes container py-5">
+                <h2 class="hdr">
+                    Backpack
+                </h2>
+                    <div class="row g-3 mt-4">
+                          <div class="col-lg-4 col-md-4 col-12">
+                              <div class="card">
+                                  <div class="card-header text-center  justify-content-center align-items-center">
+                                      <img src="img/bags/bag-1.png" alt="shose" class="img-fluid w-75 bag">
+                                      <div class="card-body nss">
+                                            <h3>
+                                                Red Laltu Bag
+                                            </h3>
+                                            <p class="mt-4">
+                                                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                            </p>
+                                            <span class="mt-2">
+                                                $140
+                                            </span>
+                                        <br>
+                                            <button class="btn buyN mt-3">  
+                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>   Buy Now >>
+                                            </button>
+                                         
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                
+                          <div class="col-lg-4 col-md-4 col-12">
+                              <div class="card">
+                                  <div class="card-header text-center  justify-content-center align-items-center">
+                                      <img src="img/bags/bag-2.png" alt="shose" class="img-fluid w-75 bag">
+                                      <div class="card-body nss">
+                                            <h3>
+                                                Blue Nela Bag
+                                            </h3>
+                                            <p class="mt-4">
+                                                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                            </p>
+                                            <span class="mt-2">
+                                                $140
+                                            </span>
+                                        <br>
+                                            <button class="btn buyN mt-3">  
+                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>   Buy Now >>
+                                            </button>
+                                         
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                
+                          <div class="col-lg-4 col-md-4 col-12">
+                              <div class="card">
+                                  <div class="card-header text-center  justify-content-center align-items-center">
+                                      <img src="img/bags/bag-3.png" alt="shose" class="img-fluid w-75 bag">
+                                      <div class="card-body nss">
+                                            <h3>
+                                                Black Panther
+                                            </h3>
+                                            <p class="mt-4">
+                                                This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                                            </p>
+                                            <span class="mt-2">
+                                                $140
+                                            </span>
+                                        <br>
+                                            <button class="btn buyN mt-3">  
+                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>   Buy Now >>
+                                            </button>
+                                         
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                
+                    </div>
+            </section>
+            <!-- ------------------------ contact -------------------- -->
+               <section class="contactS py-5 container">
+                <div class="contact container d-flex justify-content-center align-items-center">
+                    <div class="all-contact py-5">
+                          <h2>
+                             LET'S STAY IN TOUCH
+                          </h2>
+                          <small class="mt-3 text-muted">
+                             Get updates on sales, specials and more
+                          </small>
+                         <form action="" class="text-lg-left text-md-left text-center">
+                            <input required type="text" class="form-control mt-2" placeholder="Type Your Comment">
+                            <input type="submit" value="Submit" class="btn mt-3  submit px-4">
+                         </form>
+                    </div>
+
+             </div>
+               </section>
     
-</body>
+        </main>
+   <footer class="text-center p-3">
+        <small>
+            ©2020. <i class="fa fa-heart-o text-warning" aria-hidden="true"></i> Design By Md Nahid. 
+        </small>
+   </footer>
+
+    <!--------------- scripts ------------>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script></body>
 </html>

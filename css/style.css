@@ -13,7 +13,7 @@
     font-size: 35px;
 }
 nav{
-    background: rgb(255, 255, 255)!important;
+    background-color: #ffffff!important;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.342);
     border-bottom: 1px solid rgba(141, 141, 141, 0.253);
 }
@@ -82,7 +82,8 @@ filter: drop-shadow(0px 2px 8px rgb(255, 255, 255));
 }
 
 #gd2{
-    background-image: linear-gradient(30deg,rgb(0, 60, 255),rgb(0, 255, 221))!important;
+    background-image: linear-gradient(30deg,#003cff,#00ffdd)!important;
+    background-size: 100% 100%;
 
 }
 
